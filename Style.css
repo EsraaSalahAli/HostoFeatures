@@ -1,0 +1,329 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar
+{
+    background-color: white;
+    padding: 1%;
+}
+
+.navbar-nav a
+{
+    color: dimgray !important;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.navbar-nav a:hover
+{
+    border-top: 3px solid #2abeb3;
+    color: #2abeb3 !important;
+}
+
+.carousel-indicators [data-bs-target]
+{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.card-group
+{
+    padding: 2% 5%;
+}
+
+.card-group .card
+{
+    border: none;
+    border-radius: 0;
+    text-align: center;
+    padding: 2%;
+    color: white;
+    margin-bottom: 5%;
+}
+
+.card-title
+{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.title
+{
+    font-size: 16px;
+    text-align: center;
+}
+
+#item1
+{
+    background-color: #07aca0;
+}
+
+#item2
+{
+    background-color: #17bcb0;
+}
+
+#item3
+{
+    background-color: #27ccc0;
+}
+
+.cont
+{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    font-size: 60px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5%;
+    padding-top: 2.5%;
+}
+
+.cont1
+{
+    background-color: #1fb4a9;
+}
+
+.cont2
+{
+    background-color: #2ec3b8;
+}
+
+.cont3
+{
+    background-color: #3cd1c6;
+}
+
+#sec3
+{
+    background-color: #fafafa;
+    padding: 4% 3%;
+}
+
+#sec3 p
+{
+    color: #475968;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#sec3 span
+{
+    color: #27ccc0;
+}
+
+#sec3 .h6
+{
+    color: #989898 !important;
+    font-weight: lighter !important;
+}
+
+#sec3 .col-lg-3 .card
+{
+    margin-top: 15%;
+}
+
+#sec3 .col-lg-3 .card .card-header
+{
+   background-color: #17bcb0;
+   font-size: 18px;
+   font-weight: 700;
+   color: white;
+   padding: 4%;
+}
+
+#sec3 .col-lg-3 .card .card-body
+{
+   padding: 0;
+}
+
+#sec3 .col-lg-3 .card .firstCont
+{
+   background-image: linear-gradient(#fdfdfd,#e2e2e2);
+    padding: 10% 4%;
+}
+
+#sec3 .col-lg-3 .card .firstCont h2
+{
+    color: #3e5161;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#sec3 .col-lg-3 .card .firstCont h2 span
+{
+    color: #3e5161 !important;
+    font-size: 80px !important;
+    font-weight: 600;
+}
+
+#sec3 .CardB
+{
+    font-weight: 700;
+    color: #686868 !important;
+}
+
+#sec3 .unordered
+{
+    list-style-type: none;
+    text-align: left;
+}
+
+#sec3 .unordered i
+{
+    margin-right: 2%;
+    color: #7ec232;
+}
+
+#sec3 .card-footer
+{
+    background-color: #17bcb0;
+    border: none;
+    padding: 6%;
+}
+
+#sec3 .card-footer a
+{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+
+
+#sec4
+{
+    /* background-color: #fafafa; */
+    padding: 4% 3%;
+}
+
+#sec4 p
+{
+    color: #475968;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#sec4 span
+{
+    color: #27ccc0;
+}
+
+
+#sec4 .h6
+{
+    color: #989898 !important;
+    font-weight: lighter !important;
+    margin-bottom: 0;
+}
+
+#sec4 .card-header
+{
+    background-color: white;
+    font-size: 18px;
+    color: #343434;
+    font-weight: 700;
+}
+
+#sec4 .card-body
+{
+    background-color: #f5f5f5;
+}
+
+#sec4 .card-body .btn
+{
+    background-image: linear-gradient(#fff 25%,#dedede);
+    
+}
+
+#sec4 .card-text
+{
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: left;
+}
+
+#sec4 #circule
+{
+    position: relative;
+    border-radius: 50%;
+    width: 22%;
+    border: 1px solid #dfdfdf;
+    top: 21%;
+    left: 80%;
+    background-color: white;
+    z-index: 1;
+    font-size: 14px;
+    color: #526271;
+    font-weight: 700;
+    padding: 2%;
+}
+
+#sec4 #circule span
+{
+    color: #eb5381;
+    font-size: 17px;
+}
+
+.item
+{
+    display: inline;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    opacity: 0.5;
+}
+
+#jQuery
+{
+    background-image: url(jQuery2.png);
+}
+
+#java
+{
+    background-image: url(Java.png);
+}
+
+#html
+{
+    background-image: url(html-5.png);
+}
+
+#chrome
+{
+    background-image: url(chrome.png);
+}
+
+#cPanel
+{
+    background-image: url(cpanel-logo.png);
+}
+
+#mySql
+{
+    background-image: url(mysql_PNG14.png);
+}
+
+.btn-success
+{
+    background-color: #07aca0;
+    border: gray;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 700;
+    padding: 2%;
+    margin: 1%;
+}
+
+.btn-success:hover
+{
+    background-color: white;
+    color: black;
+}
